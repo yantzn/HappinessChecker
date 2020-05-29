@@ -1,0 +1,28 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureSignalRConnectionString": "<your SignalR endpoint>",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "FACE_SUBSCRIPTION_KEY": "<your faceApi subscription key>",
+    "FACE_ENDPOINT": "https://<your faceApi endpoint>.cognitiveservices.azure.com/",
+    "STORAGE_ACCOUNT_NAME": "<your storage account name>",
+    "STORAGE_ACCESS_KEY": "<your storage subscription key>",
+    "BLOB_NAME": "uploadimage",
+    "COSMOSDB_ENDPOINT": "https://<your cosmos db endpoint>.documents.azure.com:443/",
+    "COSMOSDB_KEY": "<your cosmos db subscription key>",
+    "DATABASE_ID": "LineBotDb",
+    "COLLECTION_ID": "HappinessInfo",
+    "LINE_CHANNEL_ACCESS_TOKEN": "<your LINE Messaging API Access Token>",
+    "LINE_CHANNEL_SECRET": "<your LINE Messaging API Channel Secret>",
+    "LINE_POST_LIST": "https://<your Storage Static web site endpoint>.z11.web.core.windows.net/",
+    "BLOB_URL": "https://<your Strage Account endpoint>.blob.core.windows.net/uploadimage/",
+    "PROXY_URL": "https://<your azure function endpoint>.azurewebsites.net/image/",
+    "SIGNALR_URL": "http://localhost:7071/api/SendMessage"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "http://localhost:8080",
+    "CORSCredentials": true
+  }
+}

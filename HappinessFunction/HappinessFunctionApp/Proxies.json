@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "img": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/image/{filename}"
+      },
+      "backendUri": "https://<your Strage Account endpoint>.blob.core.windows.net/uploadimage/{filename}"
+    }
+  }
+}
