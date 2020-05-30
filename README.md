@@ -1,3 +1,9 @@
+## 詳細
+
+こちらの記事に詳しく書いています。
+
+[AzureとLINEとVue.jsで投稿画像のHappiness数値判定Botを作ってみた](https://qiita.com/yan_tzn/items/42ad4ef678f03ce003aa)
+
 ## 動作
 
 【LINEとランキングページ】
